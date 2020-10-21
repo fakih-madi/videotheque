@@ -1,15 +1,90 @@
-.carousel {
-	margin-top: 10vh;
-	margin-bottom: 10vh;
+
+.title{
+ color: #fff;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px
+
 }
 
-h1 {
-	font-size: 5vh;
-	font-family: 'arial'
+.pro {color: #9E0E40; 
+}
+
+body
+{ background-image: url(img/allm.png);
+  background-size: cover;
+
+}
+
+div#forget div{
+
+display: inline-block;
+
+width: 50%
+
+}
+
+div#forget div.leftbox{
+
+}
+
+div#forget div.rightbox{
+
+}
+
+
+h2{color:#9E0E40} 
+
+
+nav.menu-nav ul li{
+
+}
+  
+
+nav.menu-nav ul li{
+  list-style-type: none;
+  display: inline-block
+
+}
+
+nav.menu-nav ul li a{
+  color: #fff;
+  background-color: red;
+  text-decoration: none;
+  padding: 10px
+
+}
+nav.menu-nav ul li:hover a{
+  columns: red;
+  background-color: black ;
+  transition: 0.4s all ;
+}
+
+
+
+
+
+footer{
+  background-color: red;
+}
+
+
+.carousel {
+  padding-top: 1,5vh;
+  padding-bottom: 5vh;
+}
+
+.carousel h1 {
+  font-size: 5vh;
+  font-family: 'arial';
+  color: white;
+  background: grey;
+  max-width: 15%;
+  text-align: center;
 }
 
 li {
-	list-style: none;
+  list-style: none;
 }
 
 .carousel-items {
@@ -51,11 +126,25 @@ li {
 }
 
 ::-webkit-scrollbar {
-    height: 6px;
+    height: 10px;
+    margin-top: 0;
     background-color: #F5F5F5;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #3d4852;
+    background-color: red;
     border-radius: 3px;
+}
+
+.card h2 {
+  color: white;
+  background-color: grey;
+  max-width: 50%;
+  text-align: center;
+}
+
+.card p {
+  color: white;
+  background-color: black;
+  margin-top: 0;
 }
